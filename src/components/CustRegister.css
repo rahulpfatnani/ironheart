@@ -1,0 +1,61 @@
+.required-field::before {
+    content: "*";
+    color: red;
+    margin-right: 10px;
+}
+
+.form {
+    background-image: url("../components/all-images/backgroundImages/pic2.jpg");
+    background-size: cover;
+    padding: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+input[type="submit"]:hover {
+    background: #6cf0c2;
+}
+
+.order-btn {
+    margin: 3px;
+    margin-bottom: 10px;
+}
+
+.alt-btn {
+    margin: 3px;
+}
+
+.info {
+    margin: 10px;
+}
+
+
+@media print {
+    @page {
+        size: auto;
+        /* auto is the initial value */
+        margin: 0mm;
+        /* this affects the margin in the printer settings */
+    }
+}

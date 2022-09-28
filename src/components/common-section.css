@@ -1,0 +1,23 @@
+.common__section {
+  background: url("./drive.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 80px 0px;
+  text-align: center;
+}
+
+.text-light {
+  background: rgba(97, 139, 237, 0.2);
+  backdrop-filter: blur(8px);
+  text-align: center;
+  padding: 10px;
+}
+
+.text-subLight {
+  background: rgba(97, 139, 237, 0.2);
+  backdrop-filter: blur(8px);
+  text-align: center;
+  padding: 5px;
+  color: aliceblue;
+}

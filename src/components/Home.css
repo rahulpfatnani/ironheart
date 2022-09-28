@@ -1,0 +1,8 @@
+.home {
+    background: linear-gradient(rgb(0, 13, 107, 0.9), rgb(0, 13, 107, 0.9)),
+    url("./drive.jpg");
+    padding-top: 50px;
+    padding-bottom: 15px;
+    position: relative;
+    color: #fff;
+  }

@@ -1,0 +1,11 @@
+export { default as Navigation } from "./Navigation";
+export { default as Footer } from "./Footer";
+export { default as Home } from "./Home";
+export { default as About } from "./About";
+export { default as Contact } from "./Contact";
+export { default as Login } from "./Login";
+export { default as VehicleSelection } from "./VehicleSelection";
+export { default as VehicleDetails } from "./VehicleDetails";
+export { default as VehicleConfig } from "./VehicleConfig";
+export { default as CustRegister } from "./CustRegister";
+export { default as Order } from "./Order";
